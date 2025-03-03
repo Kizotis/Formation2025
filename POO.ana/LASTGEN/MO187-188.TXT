@@ -1,0 +1,48 @@
+//MO187-188.TXT ANA00187 TO ANA00188
+Catégorie		FIC-	Catégorie	Fichier supprimé Catégorie
+FonctionEmployé		FIC-	FonctionEmployé	Fichier supprimé FonctionEmployé
+Employé		FIC-	Employé	Fichier supprimé Employé
+Pièce		FIC-	Pièce	Fichier supprimé Pièce
+Tâche		FIC-	Tâche	Fichier supprimé Tâche
+Regroupement		FIC-	Regroupement	Fichier supprimé Regroupement
+Postes		FIC-	Postes	Fichier supprimé Postes
+Outils		FIC-	Outils	Fichier supprimé Outils
+Process		FIC-	Process	Fichier supprimé Process
+Etiquettes		FIC-	Etiquettes	Fichier supprimé Etiquettes
+Imprimantes		FIC-	Imprimantes	Fichier supprimé Imprimantes
+DemandeImpression		FIC-	DemandeImpression	Fichier supprimé DemandeImpression
+VariablesEtiquettes		FIC-	VariablesEtiquettes	Fichier supprimé VariablesEtiquettes
+OKNOK		FIC-	OKNOK	Fichier supprimé OKNOK
+MotifsQualité		FIC-	MotifsQualité	Fichier supprimé MotifsQualité
+TypeMotif		FIC-	TypeMotif	Fichier supprimé TypeMotif
+TraçaThalès		FIC-	TraçaThalès	Fichier supprimé TraçaThalès
+ProgMesure		FIC-	ProgMesure	Fichier supprimé ProgMesure
+NonConformités		FIC-	NonConformités	Fichier supprimé NonConformités
+MotifArret		FIC-	MotifArret	Fichier supprimé MotifArret
+EquipeTRS		FIC-	EquipeTRS	Fichier supprimé EquipeTRS
+OF_TRS		FIC-	OF_TRS	Fichier supprimé OF_TRS
+TempsProd		FIC-	TempsProd	Fichier supprimé TempsProd
+TracaLibre		FIC-	TracaLibre	Fichier supprimé TracaLibre
+TracaLibrePiece		FIC-	TracaLibrePiece	Fichier supprimé TracaLibrePiece
+ParamDocsArticles		FIC-	ParamDocsArticles	Fichier supprimé ParamDocsArticles
+Contrainte_Employé_FonctionEmployé		DEL	FonctionEmployé (IDFonctionEmployé) et Employé (IDFonctionEmployé)	Liaison supprimée entre les fichiers FonctionEmployé (IDFonctionEmployé) et Employé (IDFonctionEmployé)
+Contrainte_PièceTrad_Regroupement		DEL	Regroupement (IDRegroupement) et Pièce (IdPaletteActuelle)	Liaison supprimée entre les fichiers Regroupement (IDRegroupement) et Pièce (IdPaletteActuelle)
+Contrainte_Postes_Tâche		DEL	Tâche (IDTâche) et Postes (IDTache)	Liaison supprimée entre les fichiers Tâche (IDTâche) et Postes (IDTache)
+Contrainte_Article_Process		DEL	Process (CodeProcess) et Article (CodeProcess)	Liaison supprimée entre les fichiers Process (CodeProcess) et Article (CodeProcess)
+Contrainte_Pièce_Regroupement_Usinage		DEL	Regroupement (IDRegroupement) et Pièce (IdRegroupementEbauche)	Liaison supprimée entre les fichiers Regroupement (IDRegroupement) et Pièce (IdRegroupementEbauche)
+Contrainte_Pièce_Regroupement_Fournée_Brasage		DEL	Regroupement (IDRegroupement) et Pièce (IdFournéeBrasage)	Liaison supprimée entre les fichiers Regroupement (IDRegroupement) et Pièce (IdFournéeBrasage)
+Contrainte_Article_Pièce		DEL	Article (RefArticle) et Pièce (RefArticleMersen)	Liaison supprimée entre les fichiers Article (RefArticle) et Pièce (RefArticleMersen)
+Contrainte_Pièce_Employé		DEL	Employé (CodeEmployé) et Pièce (Qualiticien)	Liaison supprimée entre les fichiers Employé (CodeEmployé) et Pièce (Qualiticien)
+Contrainte_Pièce_TraçaThalès		DEL	Pièce (IDPièce) et TraçaThalès (IDPièce)	Liaison supprimée entre les fichiers Pièce (IDPièce) et TraçaThalès (IDPièce)
+Contrainte_Article_ProgMesure		DEL	Article (RefArticle) et ProgMesure (RefArticle)	Liaison supprimée entre les fichiers Article (RefArticle) et ProgMesure (RefArticle)
+Contrainte_Employé_OF_TRS		DEL	Employé (IDEmployé) et OF_TRS (IDEmployéOF)	Liaison supprimée entre les fichiers Employé (IDEmployé) et OF_TRS (IDEmployéOF)
+Contrainte_TempsProd_OF_TRS		DEL	OF_TRS (IDOF_TRS) et TempsProd (IDOF_TRS)	Liaison supprimée entre les fichiers OF_TRS (IDOF_TRS) et TempsProd (IDOF_TRS)
+Contrainte_OF_TRS_Outils		DEL	Outils (IDOutils) et OF_TRS (IDOutils)	Liaison supprimée entre les fichiers Outils (IDOutils) et OF_TRS (IDOutils)
+Contrainte_TempsProd_EquipeTRS		DEL	EquipeTRS (IDEquipeTRS) et TempsProd (IDEquipeTRS)	Liaison supprimée entre les fichiers EquipeTRS (IDEquipeTRS) et TempsProd (IDEquipeTRS)
+Contrainte_TempsProd_Employé		DEL	Employé (IDEmployé) et TempsProd (IDEmployé)	Liaison supprimée entre les fichiers Employé (IDEmployé) et TempsProd (IDEmployé)
+Contrainte_TempsProd_MotifArret		DEL	MotifArret (CodeMotif) et TempsProd (CodeMotif)	Liaison supprimée entre les fichiers MotifArret (CodeMotif) et TempsProd (CodeMotif)
+Contrainte_NonConformités_Outils		DEL	Outils (IDOutils) et NonConformités (IDOutils)	Liaison supprimée entre les fichiers Outils (IDOutils) et NonConformités (IDOutils)
+Contrainte_Article_TracaLibre		DEL	Article (RefArticle) et TracaLibre (RefArticle)	Liaison supprimée entre les fichiers Article (RefArticle) et TracaLibre (RefArticle)
+Contrainte_TracaLibrePiece_Pièce		DEL	Pièce (IDPièce) et TracaLibrePiece (IDPièce)	Liaison supprimée entre les fichiers Pièce (IDPièce) et TracaLibrePiece (IDPièce)
+Contrainte_TracaLibre_TracaLibrePiece		DEL	TracaLibre (IDTracaLibre) et TracaLibrePiece (IDTracaLibre)	Liaison supprimée entre les fichiers TracaLibre (IDTracaLibre) et TracaLibrePiece (IDTracaLibre)
+Contrainte_Article_ParamDocsArticles		DEL	Article (RefArticle) et ParamDocsArticles (RefArticle)	Liaison supprimée entre les fichiers Article (RefArticle) et ParamDocsArticles (RefArticle)

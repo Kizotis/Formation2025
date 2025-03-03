@@ -1,0 +1,3 @@
+//MO186-187.TXT ANA00186 TO ANA00187
+Historique		NFI		nouveau fichier
+Historique		FIC-	Historique	Fichier supprimé Historique
